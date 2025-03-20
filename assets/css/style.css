@@ -50,8 +50,6 @@
   --hb: "HelveticaNeueBold", sans-serif;
   --white: #fff;
   --black: #000;
-  --primary: #da3514;
-  --gray: #333333;
 }
 html {
   scroll-behavior: smooth;
@@ -63,6 +61,8 @@ body {
   color: #1C1A1A;
   background-color: #FDE964;
   font-family: var(--fcl);
+  -webkit-font-smoothing: auto;
+  text-rendering: optimizeLegibility;
 }
 
 /* ========================== */
@@ -152,6 +152,7 @@ svg {
   min-width: 130px;
   text-align: center;
   transition: all .3s ease-in-out;
+  letter-spacing: 0.03em;
 }
 
 .btn:hover {
@@ -831,6 +832,7 @@ h2.s-heading {
 .supply-info h5 {
   font-size: 42px;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .flip-marquee {
@@ -897,6 +899,7 @@ h2.s-heading {
   z-index: 3;
   top: -15%;
   left: 100px;
+  letter-spacing: 0.03em;
 }
 
 .stage-number::before {
@@ -933,6 +936,7 @@ h2.s-heading {
 
 .road-map-content h4 {
   font-size: 28px;
+  letter-spacing: 0.03em;
 }
 
 .road-map-content p {
@@ -944,6 +948,7 @@ h2.s-heading {
 
 .road-map-content p strong {
   font-family: var(--fcb);
+  letter-spacing: 0.04em;
 }
 
 .road-map-item:nth-child(2) {
@@ -1037,6 +1042,7 @@ h2.s-heading {
   font-size: 32px;
   line-height: 100%;
   padding: 18px 24px 16px 18px !important;
+  letter-spacing: 0.03em;
 }
 
 .accordion-body {
@@ -1152,7 +1158,6 @@ text-align: center;
 }
 .gt_container--hich1m .gt_switcher {
   width: 200px !important;
-  border-radius: 16px 16px 0 0 !important;
 }
 .gt_container--hich1m .gt_switcher .gt_selected {
   background: #303030 linear-gradient(180deg, #474747 0%, #303030 70%);
