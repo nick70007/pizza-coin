@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pepe Pizzeria</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="assets/css/aos.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
+  </head>
+
+  <body>
+    <header class="heading" id="LandingHeader">
+      <div
+        class="header-wrapper d-flex align-items-center justify-content-between header-wrapper container"
+      >
+        <nav class="heading-menu d-none d-xl-block">
+          <ul class="main_menu d-flex align-items-center">
+            <a class="heading-link text-uppercase active" href="#home" >HOME</a>
+            <a class="heading-link text-uppercase" href="#about" >ABOUT</a
+            ><a class="heading-link text-uppercase" href="#token" >PIZZAnomics</a
+            ><a class="heading-link text-uppercase" href="#roadmap" >Roadmap</a
+            ><a
+              href="white-paper.html"
+              target="_blank"
+              class="heading-link text-uppercase"
+              >White paper</a
+            ><a class="heading-link text-uppercase" href="#faq" >FAQ</a>
+          </ul>
+        </nav>
+        <a class="logo active" href="#"
+          ><img src="assets/images/brand-logo.png" alt="logo"
+        /></a>
+        <div class="hidden d-md-flex align-items-center gap-4">
+          <ul class="socials d-flex align-items-center flex-wrap gap-3">
+            <li>
+              <a href="https://x.com/pizpepe" target="_blank"
+                ><img
+                  src="data:image/svg+xml,%3csvg%20width='35'%20height='36'%20viewBox='0%200%2035%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_1673_4548)'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M13.7629%2019.7443L-0.566895%201.93799H10.7833L19.6289%2012.9435L29.0791%201.98754H35.3302L22.6514%2016.704L37.6849%2035.4083H26.3686L16.7906%2023.5065L6.56509%2035.3753H0.280134L13.7629%2019.7443ZM28.018%2032.1091L6.39265%205.23718H9.13258L30.7308%2032.1091H28.018Z'%20fill='black'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1673_4548'%3e%3crect%20width='33.8146'%20height='35.067'%20fill='white'%20transform='translate(0.849121%200.297363)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                  alt="Social Icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://t.me/+-uqniTrsSvc5ODZh" target="_blank"
+                ><img
+                  src="data:image/svg+xml,%3csvg%20version='1.2'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2035%2029'%20width='35'%20height='29'%3e%3ctitle%3etelegram-svg%3c/title%3e%3cstyle%3e%20.s0%20{%20fill:%20%23000000%20}%20%3c/style%3e%3cpath%20id='Layer'%20class='s0'%20d='m2.6%2012.9c0%200%2015.3-6.3%2020.6-8.5%202.1-0.8%209-3.7%209-3.7%200%200%203.2-1.3%202.9%201.7-0.2%201.3-0.8%205.5-1.5%2010.2-1.1%206.7-2.2%2014-2.2%2014%200%200-0.3%202-1.7%202.4-1.5%200.3-4.1-1.3-4.4-1.6-0.4-0.3-6.7-4.3-9-6.2-0.6-0.6-1.4-1.7%200.1-2.9%203.2-2.9%207-6.6%209.3-8.9%201.1-1%202.1-3.5-2.3-0.5-6.3%204.3-12.4%208.3-12.4%208.3%200%200-1.4%201-4%200.2-2.6-0.8-5.7-1.9-5.7-1.9%200%200-2.2-1.2%201.3-2.6z'/%3e%3c/svg%3e"
+                  alt="Social Icon"
+              /></a>
+            </li>
+          </ul>
+          <div class=""><a href="#" class="btn">Buy Pizza</a></div>
+        </div>
+        <button
+          class="nav-btn d-flex d-xl-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <svg
+            width="48"
+            height="38"
+            viewBox="0 0 48 38"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.62292 2.95605H45.2896M2.62292 18.9561H45.2896M2.62292 34.9561H45.2896"
+              stroke="black"
+              stroke-width="4.57143"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <section class="hero-banner animated-light" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="main-heading"><span>Pepe</span> Pizzeria</h1>
+            <p class="des">Join us and become a part of Pepe Restaurante.</p>
+            <div
+              class="d-flex flex-column flex-md-row align-items-center gap-4 position-relative z-3"
+            >
+              <div
+                class="price-widget"
+                id="buy-widgets"
+                data-aos="fade-left"
+                data-aos-offset
+                data-aos-delay
+              >
+                <p class="pw-heading">PEPIZ Presale is live</p>
+                <div class="offer-time-wrapper mx-auto">
+                  <div class="timer-counter">
+                    <p>Days</p>
+                    <div class="time-display" id="days"></div>
+                  </div>
+                  <div class="timer-counter">
+                    <p>Hours</p>
+                    <div class="time-display" id="hours"></div>
+                  </div>
+                  <div class="timer-counter">
+                    <p>Minutes</p>
+                    <div class="time-display" id="minutes"></div>
+                  </div>
+                  <div class="timer-counter">
+                    <p>Seconds</p>
+                    <div class="time-display" id="seconds"></div>
+                  </div>
+                </div>
+                <div class="rised-amount">
+                  $PEPIZ Raised: <span class="fw-bold">$1,474,661</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-inner"></div>
+                </div>
+                <p class="pw-info mt-4">
+                  Your purchased $pepiz
+                  <span class="ms-1">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.499512 8.27372C0.499512 4.03954 3.932 0.607056 8.16618 0.607056C12.4003 0.607056 15.8328 4.03954 15.8328 8.27372C15.8328 12.5079 12.4003 15.9404 8.16618 15.9404C3.932 15.9404 0.499512 12.5079 0.499512 8.27372ZM8.16618 2.60705C5.03657 2.60705 2.49952 5.14411 2.49952 8.27372C2.49952 11.4033 5.03657 13.9404 8.16618 13.9404C11.2958 13.9404 13.8328 11.4033 13.8328 8.27372C13.8328 5.14411 11.2958 2.60705 8.16618 2.60705ZM8.16618 7.27372C8.71847 7.27372 9.16618 7.72143 9.16618 8.27372V10.9404C9.16618 11.4927 8.71847 11.9404 8.16618 11.9404C7.6139 11.9404 7.16618 11.4927 7.16618 10.9404V8.27372C7.16618 7.72143 7.6139 7.27372 8.16618 7.27372ZM8.16618 6.27372C8.53437 6.27372 8.83285 5.97524 8.83285 5.60705C8.83285 5.23886 8.53437 4.94038 8.16618 4.94038C7.79799 4.94038 7.49951 5.23886 7.49951 5.60705C7.49951 5.97524 7.79799 6.27372 8.16618 6.27372Z"
+                        fill="#6F5F24"
+                      />
+                    </svg>
+                  </span>
+                </p>
+                <p class="pw-info mt-2">
+                  your stakeable $pepiz
+                  <span class="ms-1">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.499512 8.27372C0.499512 4.03954 3.932 0.607056 8.16618 0.607056C12.4003 0.607056 15.8328 4.03954 15.8328 8.27372C15.8328 12.5079 12.4003 15.9404 8.16618 15.9404C3.932 15.9404 0.499512 12.5079 0.499512 8.27372ZM8.16618 2.60705C5.03657 2.60705 2.49952 5.14411 2.49952 8.27372C2.49952 11.4033 5.03657 13.9404 8.16618 13.9404C11.2958 13.9404 13.8328 11.4033 13.8328 8.27372C13.8328 5.14411 11.2958 2.60705 8.16618 2.60705ZM8.16618 7.27372C8.71847 7.27372 9.16618 7.72143 9.16618 8.27372V10.9404C9.16618 11.4927 8.71847 11.9404 8.16618 11.9404C7.6139 11.9404 7.16618 11.4927 7.16618 10.9404V8.27372C7.16618 7.72143 7.6139 7.27372 8.16618 7.27372ZM8.16618 6.27372C8.53437 6.27372 8.83285 5.97524 8.83285 5.60705C8.83285 5.23886 8.53437 4.94038 8.16618 4.94038C7.79799 4.94038 7.49951 5.23886 7.49951 5.60705C7.49951 5.97524 7.79799 6.27372 8.16618 6.27372Z"
+                        fill="#6F5F24"
+                      />
+                    </svg>
+                  </span>
+                </p>
+                <div class="wallet-type-tab my-3">
+                  <div class="wallet-btn">
+                    <button class="active">
+                      <img src="assets/images/icon-solana.png" alt="" />
+                      <div class="text-start">
+                        <span class="d-block text-uppercase">solana</span
+                        ><span class="text-xs">Chain SOL</span>
+                      </div>
+                    </button>
+                    <button class="">
+                      <img src="assets/images/icon-usdt.png" alt="" />
+                      <div class="text-start">
+                        <span class="d-block text-uppercase">USDT</span
+                        ><span class="text-xs">Chain SOL</span>
+                      </div>
+                    </button>
+                  </div>
+                  <div
+                    class="divider d-flex align-items-center justify-content-center"
+                  >
+                    <hr />
+                    <p>1$PEPIZ = $0.369258</p>
+                    <hr />
+                  </div>
+                  <div class="wallte-input mt-4 eth-wallet">
+                    <div class="wr">
+                      <p>Pay with SOL</p>
+                      <div class="input-wrapper">
+                        <img src="assets/images/icon-solana.png" alt="" />
+                        <input type="number" value="0" />
+                      </div>
+                    </div>
+                    <div class="wr">
+                      <p>Receive $PEPIZ</p>
+                      <div class="input-wrapper">
+                        <img src="assets/images/icon-pp.png" alt="" />
+                        <input type="number" value="0" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wallte-input mt-4 hidden">
+                    <div class="wr">
+                      <p>Pay with USDT</p>
+                      <div class="input-wrapper">
+                        <img src="assets/images/icon-usdt.png" alt="" />
+                        <input type="number" value="0" />
+                      </div>
+                    </div>
+                    <div class="wr">
+                      <p>Receive $PEPIZ</p>
+                      <div class="input-wrapper">
+                        <img src="assets/images/icon-pp.png" alt="" />
+                        <input type="number" value="0" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="act-btn w-100">Connect Wallet</button>
+                <div class="mt-4 pw-footer">
+                  <a href="https://phantom.com/en-GB" target="_blank">Don’t have a wallet ?</a>
+                  <p>
+                    Powered by
+                    <span><img src="assets/images/icon-pre.png" alt="" /></span>
+                    Presaleshild
+                  </p>
+                </div>
+              </div>
+              <div
+                class="price-widget d-none"
+                id="stake-widgets"
+                data-aos="fade-left"
+                data-aos-offset
+                data-aos-delay
+              >
+                <div class="d-flex gap-2 single-wraper">
+                  <div class="single">
+                    <p>Currently Staked</p>
+                    <h4>$0 PEPIZ</h4>
+                  </div>
+                  <div class="single">
+                    <p>Average APY</p>
+                    <h4>365 %</h4>
+                  </div>
+                  <div class="single">
+                    <p>Daily Rewards</p>
+                    <h4>0 $PEPIZ</h4>
+                  </div>
+                </div>
+                <div class="t-reward">
+                  <h4>Total Rewards</h4>
+                  <p>(Available after launch)</p>
+                  <div class="pepe-img my-3">
+                    <img
+                      src="./assets/images/icon-main-icon.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <h3>0 $PEPIZ</h3>
+                  <button class="act-btn w-100 mt-3 text-uppercase fw-normal">
+                    CLAIM
+                  </button>
+                </div>
+                <div class="my-staling my-2">
+                  <h4>My staking</h4>
+                  <div class="input-wrapper mt-3">
+                    <input type="number" value="0" class="text-start" />
+                    <span>
+                      <img src="assets/images/icon-pp.png" alt="" />
+                      $PEPIZ</span
+                    >
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-between gap-3 mt-3"
+                  >
+                    <div class="max-stake">
+                      <span>Max can stake </span> <span>0</span>
+                    </div>
+                    <div class="max-stake">
+                      <span>Max can stake </span> <span>0</span>
+                    </div>
+                  </div>
+                </div>
+                <button class="act-btn w-100">Connect Wallet</button>
+                <div class="mt-4 pw-footer">
+                  <a href="https://phantom.com/en-GB" target="_blank">Don’t have a wallet ?</a>
+                  <p>
+                    Powered by
+                    <span><img src="assets/images/icon-pre.png" alt="" /></span>
+                    Presaleshild
+                  </p>
+                </div>
+              </div>
+              <div class="act-btn-wrapper d-flex flex-row flex-md-column">
+                <button class="act-btn active" id="buy-btn">Buy</button>
+                <button class="act-btn" id="stake-btn">STAKE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="marquee-wrapper">
+      <div class="marquee-container">
+        <div class="marquee">
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-1.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-2.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-3.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-4.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-5.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-6.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-7.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-8.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-9.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-10.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-11.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-12.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-13.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-14.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-15.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-16.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-17.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-18.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-19.png" alt="" />
+          </div>
+          <div class="news-item">
+            <img src="assets/images/crypto-brands/m-20.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="about-section" id="about">
+      <div class="container position-relative">
+        <div class="about-content" data-aos="fade-up" data-aos-delay>
+          <h2>About Pepe Pizzeria</h2>
+          <p>
+            <strong>"Pepe Pizzeria</strong> is the social layer and community
+            meme coin of Solana.
+            <strong> Everyone knows that Pepe's famous pizza</strong> with lots
+            of cheese is a real success. Pepe, the pizzeria, is expanding
+            worldwide, and everyone knows Pepe. That's why these pizzas will
+            soon be on every table. <br /><strong>
+              Be part of it early and benefit from this expansion.</strong
+            >"
+          </p>
+        </div>
+        <div class="jusice-ani">
+          <img src="assets/images/juice.gif" alt="" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    <div class="marquee-wrapper-cone">
+      <div class="marquee-container">
+        <div class="marquee-rev">
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+        </div>
+      </div>
+    </div>
+    <section class="token-section" id="token">
+      <div class="container">
+        <h2 class="text-center s-heading" data-aos="fade-up" data-aos-delay>
+          Pizzerianomics
+        </h2>
+        <div class="tokenomics-content" data-aos="fade-up">
+          <h4 class="text-center">
+            Total Supply <strong class="fw-bold">480.000.000</strong>
+          </h4>
+          <div class="inner-content">
+            <div class="row gy-3 gy-lg-5 align-items-center">
+              <div class="col-12 col-md-6">
+                <div class="supply-info-wrapper" data-aos="zoom-in">
+                  <div class="supply-info">
+                    <p>Presale Pizza</p>
+                    <h5 class="fw-bold">60%</h5>
+                  </div>
+                  <img src="assets/images/pizza.gif" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div
+                  class="supply-info-wrapper"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <div class="supply-info">
+                    <p>Bonus Pizza</p>
+                    <h5 class="fw-bold">10%</h5>
+                  </div>
+                  <img src="assets/images/pizza.gif" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div
+                  class="supply-info-wrapper"
+                  data-aos="zoom-in"
+                  data-aos-delay="400"
+                >
+                  <div class="supply-info">
+                    <p>Pizza Pool</p>
+                    <h5 class="fw-bold">20%</h5>
+                  </div>
+                  <img src="assets/images/pizza.gif" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div
+                  class="supply-info-wrapper"
+                  data-aos="zoom-in"
+                  data-aos-delay="600"
+                >
+                  <div class="supply-info">
+                    <p>Pizza Team</p>
+                    <h5 class="fw-bold">10%</h5>
+                  </div>
+                  <img src="assets/images/pizza.gif" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="marquee-wrapper-cone flip-marquee">
+      <div class="marquee-container">
+        <div class="marquee-rev">
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+        </div>
+      </div>
+    </div>
+    <section class="roadmap-section" id="roadmap">
+      <div class="container">
+        <h2 class="text-center s-heading" data-aos="fade-up" data-aos-delay>
+          Pizzeriamap
+        </h2>
+        <div class="road-map-items-wrapper">
+          <div class="road-map-item">
+            <div class="stage-number">Stage 1</div>
+            <div class="rm-img">
+              <img src="assets/images/rm-pizza.png" alt="" />
+            </div>
+            <div class="road-map-inner">
+              <div class="road-map-content">
+                <h4>
+                  The Journey Begins – Getting Noticed and Starting the Pre-Sale
+                </h4>
+                <p>
+                  It’s time to introduce the <strong>PEPIZ</strong> Coin to the
+                  world! We’re kicking off our pre-sale and focusing on building
+                  a passionate community that will support us from day one –
+                  together, we’ll make <strong>PEPIZ</strong> a true phenomenon!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="road-map-item">
+            <div class="stage-number">Stage 2</div>
+            <div class="rm-img animation">
+              <img src="assets/images/rm-oven.png" alt="" class="oven" />
+              <img src="assets/images/fire.gif" alt="" class="fire" />
+              <img
+                src="assets/images/rm-pizza-hand.png"
+                alt=""
+                class="handel"
+              />
+            </div>
+            <div class="road-map-inner">
+              <div class="road-map-content">
+                <h4>
+                  The Hype Rises – Advertising and Listing on Major Platforms
+                </h4>
+                <p>
+                  With a clear goal ahead, we’re setting sail for the next step!
+                  We’ll ramp up visibility with targeted ads on major crypto
+                  websites and platforms like CoinMarketCap and CoinGecko –
+                  <strong>PEPIZ</strong> won’t be ignored!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="road-map-item">
+            <div class="stage-number">Stage 3</div>
+            <div class="rm-img">
+              <img src="assets/images/rm-pizza-s.png" alt="" />
+            </div>
+            <div class="road-map-inner">
+              <div class="road-map-content">
+                <h4>
+                  The Big Moment – Completing the Pre-Sale and Going Live on
+                  Raydium
+                </h4>
+                <p>
+                  Once the pre-sale ends, we’ll go live on
+                  <strong>Raydium</strong> – the first step toward a successful
+                  future! But the journey doesn’t stop here: more exciting
+                  milestones and stages will be revealed once we’re live on
+                  <strong>Raydium</strong>, taking over the world!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="marquee-wrapper-cone flip-marquee">
+      <div class="marquee-container">
+        <div class="marquee-rev">
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+        </div>
+      </div>
+    </div>
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <h2 class="text-center s-heading" data-aos="fade-up" data-aos-delay>
+          FAQ
+        </h2>
+        <div class="faq-content">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item" data-aos="fade-up">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What is $PEPIZ?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  $PEPIZ is an exciting meme coin project based on the idea that
+                  Pepe the Frog is not just a meme, but also the creative mind
+                  behind Pepe Pizzeria – a digital pizzeria at the heart of the
+                  crypto world. With $PEPIZ, we celebrate humor, community, and
+                  the fun of blockchain. It’s more than just a coin; it’s a
+                  cultural movement that allows you to be part of a fun and
+                  innovative community. Welcome to Pepe Pizzeria!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  How can I participate in staking?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Staking is really simple! Just connect your wallet in the
+                  staking section on our website and choose the amount you wish
+                  to stake. You’ll then be part of the pizza party and earn
+                  additional $PEPIZ.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  When does the PRESALE end?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  The presale will end once the funding goal is reached or when
+                  we officially announce its end. Don't miss your chance to
+                  secure your share of $PEPIZ! Stay updated through our Telegram
+                  and X (formerly Twitter) channels. Act fast before the presale
+                  ends!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  On which exchange will the launch take place?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  The launch of $PEPIZ will take place on Rydium, and you can
+                  track the progress and price on platforms like Dextool or
+                  Dexscreener. Be part of it and follow along live as the
+                  pizzeria kicks off on the blockchain!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  Is there a whitepaper for the project?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Yes, we have a detailed whitepaper that includes all the
+                  important details about $PEPIZ and our vision. You’ll find
+                  information about our roadmap, long-term goals, and the
+                  technology behind the project. The whitepaper is a valuable
+                  resource to learn more about our project and the philosophy
+                  behind Pepe Pizzeria. Check it out to get a comprehensive
+                  overview.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item" data-aos="fade-up">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  Important Disclaimer about $PEPIZ as a Meme Coin
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  $PEPIZ is a meme coin project and should be viewed purely as
+                  entertainment and for fun. As with all meme coins, the price
+                  of $PEPIZ can fluctuate significantly, especially between the
+                  presale and the time it goes live on exchanges. The price may
+                  vary greatly, and it's important to understand that there are
+                  no guarantees of profits. Only invest what you are willing to
+                  lose, and be aware of the risks involved. We take no
+                  responsibility for any profits or losses. Everyone should act
+                  responsibly and remember that this project is for community
+                  fun, not speculative gains.
+                  <strong class="fw-bold">
+                    Please note that this is not financial advice.</strong
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="marquee-wrapper-cone flip-marquee">
+      <div class="marquee-container">
+        <div class="marquee-rev">
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-content">
+          <div class="pepe-logo-mark">
+            <img src="./assets/images/icon-main-icon.gif" alt="" />
+          </div>
+          <h2>pepe pizzeria</h2>
+          <h5>Follow us</h5>
+          <ul
+            class="socials d-inline-flex flex-wrap justify-content-center gap-3 align-items-center"
+          >
+            <li>
+              <a href="https://x.com/pizpepe" target="_blank"
+                ><img
+                  src="data:image/svg+xml,%3csvg%20width='35'%20height='36'%20viewBox='0%200%2035%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_1673_4548)'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M13.7629%2019.7443L-0.566895%201.93799H10.7833L19.6289%2012.9435L29.0791%201.98754H35.3302L22.6514%2016.704L37.6849%2035.4083H26.3686L16.7906%2023.5065L6.56509%2035.3753H0.280134L13.7629%2019.7443ZM28.018%2032.1091L6.39265%205.23718H9.13258L30.7308%2032.1091H28.018Z'%20fill='black'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1673_4548'%3e%3crect%20width='33.8146'%20height='35.067'%20fill='white'%20transform='translate(0.849121%200.297363)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                  alt="Social Icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://t.me/+-uqniTrsSvc5ODZh" target="_blank"
+                ><img
+                  src="data:image/svg+xml,%3csvg%20version='1.2'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2035%2029'%20width='35'%20height='29'%3e%3ctitle%3etelegram-svg%3c/title%3e%3cstyle%3e%20.s0%20{%20fill:%20%23000000%20}%20%3c/style%3e%3cpath%20id='Layer'%20class='s0'%20d='m2.6%2012.9c0%200%2015.3-6.3%2020.6-8.5%202.1-0.8%209-3.7%209-3.7%200%200%203.2-1.3%202.9%201.7-0.2%201.3-0.8%205.5-1.5%2010.2-1.1%206.7-2.2%2014-2.2%2014%200%200-0.3%202-1.7%202.4-1.5%200.3-4.1-1.3-4.4-1.6-0.4-0.3-6.7-4.3-9-6.2-0.6-0.6-1.4-1.7%200.1-2.9%203.2-2.9%207-6.6%209.3-8.9%201.1-1%202.1-3.5-2.3-0.5-6.3%204.3-12.4%208.3-12.4%208.3%200%200-1.4%201-4%200.2-2.6-0.8-5.7-1.9-5.7-1.9%200%200-2.2-1.2%201.3-2.6z'/%3e%3c/svg%3e"
+                  alt="Social Icon"
+              /></a>
+            </li>
+          </ul>
+          <h6 class="fw-bold mt-4">Pepe Pizzeria</h6>
+          <p>
+            Always conduct your own research when evaluating the best
+            cryptocurrencies to buy, upcoming ICOs, or new tokens. This is not
+            financial advice. This meme coin, powered by Pepe Pizzeria and built
+            on the Solana blockchain, offers the potential for high rewards.
+            However, it's important to understand that such investments are
+            highly speculative and can lead to total loss. Embrace the future of
+            crypto with caution, but with the right research, the opportunities
+            are endles
+          </p>
+        </div>
+      </div>
+      <div class="marquee-container bg-transparent mt-5">
+        <div class="marquee-rev">
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+          <div class="cone-item"></div>
+        </div>
+      </div>
+      <div class="gtranslate_wrapper"></div>
+    </footer>
+    <!-- ================Mobile Nav============== -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a href="#" class="mobile-logo"
+          ><img src="assets/images/mobile-logo.png" alt="" class="img-fluid"
+        /></a>
+        <button
+          type="button"
+          class="close-btn"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <svg
+            width="25"
+            height="24"
+            viewBox="0 0 25 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.3849 9.32205C16.481 9.23249 16.5585 9.12488 16.6129 9.00538C16.6674 8.88587 16.6978 8.75681 16.7024 8.62555C16.707 8.4943 16.6857 8.36342 16.6397 8.2404C16.5938 8.11737 16.524 8.00461 16.4344 7.90855C16.3449 7.81249 16.2373 7.73501 16.1178 7.68053C15.9982 7.62605 15.8692 7.59565 15.7379 7.59105C15.6067 7.58646 15.4758 7.60776 15.3528 7.65374C15.2297 7.69972 15.117 7.76949 15.0209 7.85905L12.0949 10.587L9.36692 7.66005C9.18439 7.47309 8.93593 7.36501 8.67472 7.35891C8.4135 7.35282 8.16028 7.44921 7.96923 7.62745C7.77818 7.8057 7.66448 8.05164 7.65246 8.31265C7.64044 8.57366 7.73106 8.829 7.90492 9.02405L10.6329 11.95L7.70592 14.6781C7.60647 14.7667 7.52573 14.8743 7.46846 14.9946C7.41118 15.1149 7.37852 15.2454 7.37239 15.3785C7.36626 15.5116 7.38679 15.6446 7.43277 15.7696C7.47875 15.8947 7.54925 16.0093 7.64014 16.1067C7.73103 16.2041 7.84047 16.2824 7.96203 16.3369C8.08359 16.3915 8.21482 16.4212 8.34802 16.4243C8.48121 16.4274 8.61369 16.4038 8.73766 16.355C8.86163 16.3062 8.97459 16.2331 9.06992 16.14L11.9959 13.413L14.7239 16.3391C14.812 16.4403 14.9196 16.5229 15.0402 16.5817C15.1609 16.6405 15.2922 16.6745 15.4262 16.6815C15.5603 16.6885 15.6943 16.6685 15.8205 16.6226C15.9466 16.5767 16.0622 16.5058 16.1604 16.4143C16.2586 16.3228 16.3374 16.2124 16.392 16.0898C16.4466 15.9672 16.476 15.8348 16.4784 15.7006C16.4807 15.5664 16.4561 15.4331 16.4058 15.3086C16.3556 15.1841 16.2808 15.071 16.1859 14.976L13.4589 12.05L16.3849 9.32205Z"
+              fill="currentColor"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M1.04492 12C1.04492 5.925 5.96992 1 12.0449 1C18.1199 1 23.0449 5.925 23.0449 12C23.0449 18.075 18.1199 23 12.0449 23C5.96992 23 1.04492 18.075 1.04492 12ZM12.0449 21C10.863 21 9.6927 20.7672 8.60077 20.3149C7.50884 19.8626 6.51669 19.1997 5.68096 18.364C4.84523 17.5282 4.1823 16.5361 3.73001 15.4442C3.27771 14.3522 3.04492 13.1819 3.04492 12C3.04492 10.8181 3.27771 9.64778 3.73001 8.55585C4.1823 7.46392 4.84523 6.47177 5.68096 5.63604C6.51669 4.80031 7.50884 4.13738 8.60077 3.68508C9.6927 3.23279 10.863 3 12.0449 3C14.4319 3 16.7211 3.94821 18.4089 5.63604C20.0967 7.32387 21.0449 9.61305 21.0449 12C21.0449 14.3869 20.0967 16.6761 18.4089 18.364C16.7211 20.0518 14.4319 21 12.0449 21Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="main_menu">
+          <a class="heading-link text-uppercase active" href="#home">HOME</a>
+            <a class="heading-link text-uppercase" href="#about">ABOUT</a
+            ><a class="heading-link text-uppercase" href="#token">PIZZAnomics</a
+            ><a class="heading-link text-uppercase" href="#roadmap">Roadmap</a
+            ><a
+              href="white-paper.html"
+              target="_blank"
+              class="heading-link text-uppercase"
+              >White paper</a
+            ><a class="heading-link text-uppercase" href="#faq">FAQ</a>
+        </ul>
+        <ul class="socials d-flex align-items-center flex-wrap gap-3 mt-4">
+          <li>
+            <a href="https://x.com/pizpepe" target="_blank"
+              ><img
+                src="data:image/svg+xml,%3csvg%20width='35'%20height='36'%20viewBox='0%200%2035%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_1673_4548)'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M13.7629%2019.7443L-0.566895%201.93799H10.7833L19.6289%2012.9435L29.0791%201.98754H35.3302L22.6514%2016.704L37.6849%2035.4083H26.3686L16.7906%2023.5065L6.56509%2035.3753H0.280134L13.7629%2019.7443ZM28.018%2032.1091L6.39265%205.23718H9.13258L30.7308%2032.1091H28.018Z'%20fill='black'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_1673_4548'%3e%3crect%20width='33.8146'%20height='35.067'%20fill='white'%20transform='translate(0.849121%200.297363)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                alt="Social Icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://t.me/+-uqniTrsSvc5ODZh" target="_blank"
+              ><img
+                src="data:image/svg+xml,%3csvg%20version='1.2'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2035%2029'%20width='35'%20height='29'%3e%3ctitle%3etelegram-svg%3c/title%3e%3cstyle%3e%20.s0%20{%20fill:%20%23000000%20}%20%3c/style%3e%3cpath%20id='Layer'%20class='s0'%20d='m2.6%2012.9c0%200%2015.3-6.3%2020.6-8.5%202.1-0.8%209-3.7%209-3.7%200%200%203.2-1.3%202.9%201.7-0.2%201.3-0.8%205.5-1.5%2010.2-1.1%206.7-2.2%2014-2.2%2014%200%200-0.3%202-1.7%202.4-1.5%200.3-4.1-1.3-4.4-1.6-0.4-0.3-6.7-4.3-9-6.2-0.6-0.6-1.4-1.7%200.1-2.9%203.2-2.9%207-6.6%209.3-8.9%201.1-1%202.1-3.5-2.3-0.5-6.3%204.3-12.4%208.3-12.4%208.3%200%200-1.4%201-4%200.2-2.6-0.8-5.7-1.9-5.7-1.9%200%200-2.2-1.2%201.3-2.6z'/%3e%3c/svg%3e"
+                alt="Social Icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script
+      src="https://cdn.gtranslate.net/widgets/latest/dwf.js"
+      defer
+    ></script>
+
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 600,
+        easing: "ease-in-out",
+        once: false,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,545 @@
+/* Media queries============ */
+@media (max-width: 1700px) {}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1528px;
+  }
+}
+
+@media (max-width: 1599px) {
+  .animated-light::before {
+    right: 8%;
+    top: 21%;
+    width: 47%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .main-heading {
+    font-size: 100px;
+  }
+
+  .about-content h2 {
+    font-size: 80px;
+  }
+
+  h2.s-heading {
+    font-size: 120px;
+    text-shadow: 4px 4px 0px #0B0903;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .road-map-content h4 {
+    font-size: 20px;
+  }
+
+  .road-map-inner {
+    padding: 60px 240px 60px 60px;
+  }
+
+  .rm-img {
+    max-width: 200px;
+  }
+
+  .road-map-item:nth-child(3) .rm-img {
+    max-width: 200px;
+  }
+
+  .road-map-item:nth-child(2) .rm-img {
+    max-width: 240px;
+    position: absolute;
+    left: -20px;
+    top: 70%;
+    transform: translateY(-50%);
+  }
+
+  .road-map-item:nth-child(2) .road-map-inner {
+    padding: 60px 60px 60px 240px;
+  }
+
+  .rm-img.animation .fire {
+    top: 26%;
+  }
+
+  .rm-img.animation .handel {
+    bottom: 90px;
+  }
+  .jusice-ani{
+    max-width: 290px;
+    position: absolute;
+    top: 34%;
+    right: -20%;
+    }
+}
+
+@media (max-width: 991px) {
+  .about-section {
+    padding: 100px 0;
+  }
+
+  .token-section {
+    padding: 80px 0;
+  }
+
+  .about-content {
+    padding: 50px;
+  }
+
+  .about-content h2 {
+    font-size: 60px;
+  }
+
+  h2.s-heading {
+    font-size: 80px;
+    text-shadow: 4px 4px 0px #0B0903;
+  }
+
+  .about-content p {
+    font-size: 20px;
+  }
+
+  .tokenomics-content {
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 24px;
+  }
+
+  .tokenomics-content h4 {
+    font-size: 40px;
+  }
+
+  .supply-info-wrapper {
+    max-width: 360px;
+    width: 100%;
+    position: relative;
+    transition: .4s linear;
+    margin-inline: auto;
+  }
+
+  .rm-img {
+    position: static !important;
+    transform: translate(0) !important;
+    margin-bottom: 16px !important;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .road-map-item {
+    border-radius: 40px;
+  }
+
+  .road-map-inner {
+    padding: 30px !important;
+  }
+
+  .rm-img.animation {
+    height: 196px;
+  }
+
+  .rm-img.animation .handel {
+    bottom: 0;
+  }
+
+  .stage-number {
+    top: 30px;
+    left: 30px;
+  }
+
+  .road-map-item:nth-child(2) .stage-number {
+    left: 30px;
+    right: auto;
+  }
+
+  .road-map-item {
+    transform: rotate(0deg) !important;
+  }
+
+  .faq-section {
+    padding: 80px 0 80px 0;
+  }
+  .accordion-button {
+  font-size: 24px;
+}
+.footer-section {
+  padding: 390px 0 0px 0;
+}
+.footer-content {
+  padding: 150px 24px 13px 24px;
+}
+.jusice-ani{
+  max-width: 290px;
+  position: absolute;
+  top: 34%;
+  right: -10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .act-btn-wrapper {
+    width: 100%;
+  }
+
+  .act-btn {
+    width: 100%;
+    height: 52px;
+    font-size: 14px;
+  }
+
+  .road-map-items-wrapper {
+    margin-top: 60px;
+  }
+
+  .road-map-item:nth-child(2) .rm-img {
+    max-width: 198px;
+  }
+
+  .rm-img.animation {
+    height: 154px;
+  }
+
+  .roadmap-section {
+    background-color: #FFC446;
+    padding: 80px 0 80px 0;
+  }
+  .jusice-ani{
+  display: none;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 54px;
+    text-align: center;
+    text-shadow: 2px 1px 0px #0B0903;
+  }
+
+  .hero-banner .des {
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+  }
+
+  .offer-time-wrapper {
+    justify-content: space-around;
+    gap: 8px;
+  }
+
+  .td-item {
+    width: 16px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .timer-counter {
+    width: 100%;
+  }
+
+  .time-display {
+    background: #F3F3F3;
+    border: .8px solid #000000;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .time-display {
+    gap: 0px;
+    position: relative;
+  }
+
+  .timer-counter:not(:last-child) p {
+    margin-left: 0px;
+  }
+
+  .timer-counter:not(:last-child) .time-display {
+    margin-right: 0px;
+  }
+
+  .timer-counter:not(:last-child) .time-display::after {
+    right: -6px;
+  }
+
+  .rised-amount {
+    margin: 10px 0;
+  }
+
+  .progress-bar {
+    height: 16px;
+    padding: 2px;
+  }
+
+  .single-wraper {
+    flex-wrap: wrap;
+  }
+
+  .single {
+    flex: 1;
+    max-width: 100%;
+    min-width: 100px;
+  }
+
+  .t-reward {
+    padding: 14px;
+  }
+
+  .pepe-img {
+    max-width: 50px;
+  }
+
+  .nav-btn {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .marquee-wrapper {
+    padding: 16px 0;
+  }
+
+  .marquee {
+    -webkit-animation: marquee 6s linear infinite;
+    animation: marquee 6s linear infinite;
+  }
+
+  .gt_switcher_wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0 !important;
+    z-index: 999999;
+  }
+
+  .about-content {
+    padding: 16px;
+  }
+
+  .about-content {
+    padding: 16px;
+    border-radius: 16px;
+    border: 3px dashed #000;
+  }
+
+  .about-content h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px 0px #0B0903;
+    margin-bottom: 12px;
+  }
+
+  h2.s-heading {
+    font-size: 50px;
+    text-shadow: 2px 2px 0px #0B0903;
+  }
+
+  .tokenomics-content {
+    margin-top: 40px;
+    padding: 30px 16px;
+    border-radius: 16px;
+    border: 3px dashed #000;
+  }
+
+  .tokenomics-content h4 {
+    font-size: 32px;
+  }
+
+  .about-section {
+    padding: 60px 0;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+
+  .road-map-item {
+    border-radius: 20px;
+    margin-bottom: 18px;
+  }
+
+  .road-map-inner {
+    padding: 16px !important;
+  }
+
+  .stage-number {
+    position: static;
+    font-size: 24px;
+    border-radius: 16px;
+    padding: 10px 64px;
+    margin: 0 auto;
+}
+
+  .stage-number::before {
+    display: none;
+  }
+
+  .rm-img {
+    margin: 16px auto;
+  }
+
+  .rm-img {
+    max-width: 140px;
+  }
+
+  .road-map-item:nth-child(3) .rm-img {
+    max-width: 140px;
+  }
+
+  .road-map-item:nth-child(2) .rm-img {
+    max-width: 185px;
+  }
+
+  .rm-img.animation {
+    height: 141px;
+  }
+
+  .roadmap-section {
+    background-color: #FFC446;
+    padding: 70px 0 70px 0;
+  }
+
+  .road-map-items-wrapper {
+    margin-top: 20px;
+  }
+
+  .accordion-button {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    padding: 14px 10px 12px 9px !important;
+  }
+
+  .accordion-body {
+    font-size: 16px;
+  }
+
+  .faq-content {
+    margin-top: 30px;
+  }
+
+  .accordion-button::after {
+    width: 24px;
+    height: 24px;
+  }
+  .faq-section {
+    padding: 50px 0 50px 0;
+}
+.footer-section {
+  padding: 150px 0 0px 0;
+}
+.footer-content {
+  border: 4px dashed #121212;
+  border-radius:16px;
+  padding:70px 18px 18px 18px;
+}
+.pepe-logo-mark {
+  max-width: 100px;
+  max-height: 100px;
+  top: -50px;
+}
+.footer-content h2 {
+font-size: 40px;
+}
+.footer-content h6, .footer-content p {
+  font-size:16px;
+}
+.footer-content .socials {
+ transform: scale(.8);
+}
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+ top: auto;
+ bottom: 10px;
+  
+}
+.s-wrapper{
+  position: static;
+}
+}
+
+@media (max-width: 440px) {
+  .price-widget {
+    border-radius: 24px 16px;
+    background-color: #FFD331;
+    padding: 16px;
+  }
+
+  .pw-heading {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  .wallet-btn button {
+    font-size: 14px;
+  }
+
+  .wallet-btn button {
+    display: flex;
+    padding: 8px 10px;
+    gap: 4px;
+  }
+
+  .divider {
+    margin-top: 16px;
+  }
+
+  .mt-4 {
+    margin-top: 18px !important;
+  }
+
+  .wr p {
+    font-family: var(--hr);
+    margin-bottom: 8px;
+  }
+
+  .wallet-btn button img,
+  .input-wrapper img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .single h4 {
+    font-size: 16px;
+  }
+
+  .t-reward h3 {
+    font-size: 18px;
+  }
+
+  .pw-footer a {
+    font-size: 16px;
+  }
+
+  .supply-info p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .supply-info h5 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .road-map-content h4 {
+    font-size: 18px;
+  }
+
+  .road-map-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 380px) {}
