@@ -7,14 +7,14 @@ window.addEventListener("scroll", function () {
   }
 });
 // ==================
-window.gtranslateSettings = {
-  "default_language": "en",
-  "languages": ["en", "es", "de", "fr", "pt", "ru", "tr", "ja", "ko", "ar", "hi", "zh-CN"],
-  "wrapper_selector": ".gtranslate_wrapper",
-  "flag_size": 24,
-  "switcher_horizontal_position": "right",
-  "alt_flags": { "en": "usa" }
-};
+// window.gtranslateSettings = {
+//   "default_language": "en",
+//   "languages": ["en", "es", "de", "fr", "pt", "ru", "tr", "ja", "ko", "ar", "hi", "zh-CN"],
+//   "wrapper_selector": ".gtranslate_wrapper",
+//   "flag_size": 24,
+//   "switcher_horizontal_position": "right",
+//   "alt_flags": { "en": "usa" }
+// };
 
 // ====================
 const countdownDate = new Date("March 25, 2025 00:00:00").getTime();
@@ -116,3 +116,44 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+            const langMap = {
+                "en": "EN",
+                "es": "ES",
+                "de": "DE",
+                "fr": "FR",
+                "pt": "PT",
+                "ru": "RU",
+                "tr": "TR",
+                "ja": "JA",
+                "ko": "KO",
+                "ar": "AR",
+                "hi": "HI",
+                "zh-CN": "ZH"
+            };
+
+            document.querySelectorAll(".gtranslate_wrapper a").forEach(link => {
+                let langCode = link.getAttribute("data-gt-lang");
+                let img = link.querySelector("img")
+                link.innerText = ''
+                link.innerHTML = img.outerHTML
+                if (langMap[langCode]) {
+                    let flag = link.querySelector("span.gt_flag");
+                    if (flag) {
+                        flag.style.display = "none";
+                      }
+                    const countryCodeSpan = document.createElement("span");
+                    countryCodeSpan.innerText = langMap[langCode];
+                    countryCodeSpan.style.marginLeft = "5px";
+                    countryCodeSpan.style.fontSize = "14px"; 
+                    countryCodeSpan.style.fontWeight = "bold"; 
+                    countryCodeSpan.style.textTransform = "uppercase"; 
+                    countryCodeSpan.style.color = "#000"; 
+                    countryCodeSpan.style.display = "inline-block";
+                    link.appendChild(countryCodeSpan);
+                }
+            });
+        }, 500);
+    });

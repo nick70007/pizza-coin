@@ -8,9 +8,10 @@
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1180px;
+    max-width: 1300px;
   }
 }
+
 
 @media (min-width: 1600px) {
   .container {
