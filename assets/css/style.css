@@ -65,7 +65,9 @@ body {
   -webkit-font-smoothing: auto;
   text-rendering: optimizeLegibility;
 }
-
+section{
+  overflow:hidden;
+}
 /* ========================== */
 ul,
 li,
@@ -972,10 +974,8 @@ h2.s-heading {
 }
 
 .road-map-item:nth-child(3) .rm-img {
-  max-width: 300px;
   position: absolute;
   right: -30px;
-  top: 74%;
   transform: translateY(-50%);
 }
 

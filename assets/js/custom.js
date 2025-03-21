@@ -7,14 +7,27 @@ window.addEventListener("scroll", function () {
   }
 });
 // ==================
-// window.gtranslateSettings = {
-//   "default_language": "en",
-//   "languages": ["en", "es", "de", "fr", "pt", "ru", "tr", "ja", "ko", "ar", "hi", "zh-CN"],
-//   "wrapper_selector": ".gtranslate_wrapper",
-//   "flag_size": 24,
-//   "switcher_horizontal_position": "right",
-//   "alt_flags": { "en": "usa" }
-// };
+window.gtranslateSettings = {
+  default_language: "en",
+  languages: [
+    "en",
+    "es",
+    "de",
+    "fr",
+    "pt",
+    "ru",
+    "tr",
+    "ja",
+    "ko",
+    "ar",
+    "hi",
+    "zh-CN",
+  ],
+  wrapper_selector: ".gtranslate_wrapper",
+  switcher_horizontal_position: "inline",
+  float_switcher_open_direction: "bottom",
+  alt_flags: { en: "usa" },
+};
 
 // ====================
 const countdownDate = new Date("March 25, 2025 00:00:00").getTime();
@@ -116,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
+// ====================================
     document.addEventListener("DOMContentLoaded", function () {
         setTimeout(function () {
             const langMap = {
@@ -133,7 +146,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "hi": "HI",
                 "zh-CN": "ZH"
             };
-
             document.querySelectorAll(".gtranslate_wrapper a").forEach(link => {
                 let langCode = link.getAttribute("data-gt-lang");
                 let img = link.querySelector("img")
